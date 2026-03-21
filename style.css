@@ -1,88 +1,192 @@
 body{
-font-family: Arial;
+font-family:'Poppins',sans-serif;
+background:#f3eaea;
 margin:0;
-background:#f6f6f6;
 }
 
-header{
+
+
+/* NAVBAR */
+
+.navbar{
+background:white;
+margin:20px auto;
+width:85%;
+padding:15px 30px;
+border-radius:40px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 80px;
-background:#40826D; /* Viridian Green */
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
 }
 
-header h1{
-color:#D4AF37; /* Gold */
+.logo{
+color:#40826D;
 }
 
-nav a{
-margin:0 15px;
-text-decoration:none;
+.search{
+border:none;
+background:#f2f2f2;
+padding:10px 15px;
+border-radius:20px;
+}
+
+.subscribe{
+background:#40826D;
 color:white;
-font-weight:bold;
+border:none;
+padding:10px 20px;
+border-radius:20px;
 }
 
-nav a:hover{
-color:#D4AF37; /* Gold */
-}
+
+
+/* HERO */
 
 .hero{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:60px 80px;
+padding:60px 10%;
+}
+
+.hero span{
+color:#D4AF37;
 }
 
 .hero img{
 border-radius:10px;
 }
 
-.hero-text{
-max-width:500px;
+.email-box{
+margin-top:20px;
 }
 
-.hero-text h2{
-font-size:40px;
-color:#D4AF37; /* Gold heading */
+.email-box input{
+padding:10px;
+border-radius:8px;
+border:1px solid #ddd;
 }
 
-.categories{
-padding:40px 80px;
-}
-
-.categories h2{
-color:#D4AF37; /* Gold heading */
-}
-
-.cards{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:10px;
-width:200px;
-text-decoration:none;
-color:black;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-background:#40826D; /* Viridian Green */
+.email-box button{
+background:#40826D;
 color:white;
+border:none;
+padding:10px 15px;
+border-radius:8px;
 }
+
+
+
+/* TRENDING */
+
+.trending{
+text-align:center;
+padding:30px;
+}
+
+.section-title{
+color:#D4AF37;
+margin-bottom:20px;
+}
+
+.topics{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.topics a{
+background:white;
+padding:10px 20px;
+border-radius:25px;
+text-decoration:none;
+color:#40826D;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+
+
+/* MAIN LAYOUT */
+
+.layout{
+display:grid;
+grid-template-columns:300px 1fr;
+gap:40px;
+padding:40px 10%;
+}
+
+
+
+/* SIDEBAR */
+
+.about-card{
+background:white;
+padding:20px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.about-card img{
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.tags span{
+background:white;
+padding:6px 12px;
+margin:5px;
+display:inline-block;
+border-radius:20px;
+box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+
+.recent-post{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+}
+
+.recent-post img{
+border-radius:8px;
+}
+
+
+
+/* POSTS */
+
+.post{
+display:flex;
+background:white;
+border-radius:15px;
+margin-bottom:25px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.post img{
+width:250px;
+}
+
+.post-text{
+padding:20px;
+}
+
+.post-text h3{
+margin-top:0;
+color:#40826D;
+}
+
+
+
+/* FOOTER */
 
 footer{
 text-align:center;
-padding:20px;
-margin-top:40px;
-background:#40826D; /* Viridian Green */
+padding:30px;
+background:#40826D;
 color:white;
+margin-top:40px;
 }

@@ -4,67 +4,222 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mickey Blog</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<header>
-<h1>Mickey</h1>
+<!-- NAVBAR -->
 
-<nav>
-<a href="fashion.html">Fashion</a>
-<a href="books.html">Books</a>
-<a href="meals.html">Meals</a>
-<a href="places.html">Places to Visit</a>
-</nav>
+<header class="navbar">
+
+<input class="search" placeholder="Quick Search...">
+
+<h2 class="logo">Mickey</h2>
+
+<button class="subscribe">Subscribe</button>
 
 </header>
+
+
+
+<!-- HERO SECTION -->
 
 <section class="hero">
 
 <div class="hero-text">
-<h2>Hey, I'm Mickey 👋</h2>
-<p>I write blogs about fashion, books, food and amazing places to visit around the world.</p>
+
+<h1>Hey, I'm <span>Mickey</span> 👋</h1>
+
+<p>I write blogs about fashion, books, meals and beautiful places to visit.</p>
+
+<div class="email-box">
+
+<input placeholder="Enter your email address">
+
+<button>Get Started</button>
+
 </div>
 
-<img src="https://picsum.photos/400/300">
+</div>
+
+<img src="https://picsum.photos/450/350">
 
 </section>
 
 
-<section class="categories">
 
-<h2>Trending Topics</h2>
+<!-- TRENDING TOPICS -->
 
-<div class="cards">
+<section class="trending">
 
-<a href="fashion.html" class="card">
-<h3>Fashion</h3>
-<p>Latest trends & outfits</p>
-</a>
+<h3 class="section-title">Trending Topics</h3>
 
-<a href="books.html" class="card">
-<h3>Books</h3>
-<p>My favorite reads</p>
-</a>
+<div class="topics">
 
-<a href="meals.html" class="card">
-<h3>Meals</h3>
-<p>Best food & recipes</p>
-</a>
-
-<a href="places.html" class="card">
-<h3>Places to Visit</h3>
-<p>Travel destinations</p>
-</a>
+<a href="fashion.html">Fashion</a>
+<a href="books.html">Books</a>
+<a href="meals.html">Meals</a>
+<a href="places.html">Travel</a>
 
 </div>
 
 </section>
+
+
+
+<!-- MAIN CONTENT -->
+
+<div class="layout">
+
+
+
+<!-- SIDEBAR -->
+
+<aside>
+
+<h3 class="section-title">About Me</h3>
+
+<div class="about-card">
+
+<img src="https://picsum.photos/80">
+
+<h4>Mickey</h4>
+
+<p>Founder & Editor</p>
+
+<p>Hello! I share inspiration about fashion, books, meals and travel.</p>
+
+</div>
+
+
+
+<h3 class="section-title">Tag Cloud</h3>
+
+<div class="tags">
+
+<span>Fashion</span>
+<span>Books</span>
+<span>Meals</span>
+<span>Travel</span>
+
+</div>
+
+
+
+<h3 class="section-title">Recent Posts</h3>
+
+<div class="recent">
+
+<div class="recent-post">
+<img src="https://picsum.photos/60">
+<p>Best Fashion Trends</p>
+</div>
+
+<div class="recent-post">
+<img src="https://picsum.photos/61">
+<p>Books That Inspired Me</p>
+</div>
+
+<div class="recent-post">
+<img src="https://picsum.photos/62">
+<p>Best Street Meals</p>
+</div>
+
+</div>
+
+</aside>
+
+
+
+<!-- BLOG POSTS -->
+
+<main>
+
+<div class="post">
+
+<img src="https://picsum.photos/350/220">
+
+<div class="post-text">
+
+<h3>Best Fashion Trends</h3>
+
+<p>September 20 • 1 min read • ★★★★☆</p>
+
+<p>Discover stylish outfits and fashion inspiration.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="post">
+
+<img src="https://picsum.photos/351/220">
+
+<div class="post-text">
+
+<h3>Books I Recommend</h3>
+
+<p>August 10 • 2 min read • ★★★★★</p>
+
+<p>A list of books I love reading.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="post">
+
+<img src="https://picsum.photos/352/220">
+
+<div class="post-text">
+
+<h3>Delicious Meals</h3>
+
+<p>July 15 • 1 min read • ★★★★☆</p>
+
+<p>Food recipes and meals I enjoy.</p>
+
+</div>
+
+</div>
+
+
+
+<div class="post">
+
+<img src="https://picsum.photos/353/220">
+
+<div class="post-text">
+
+<h3>Beautiful Places to Visit</h3>
+
+<p>June 8 • 3 min read • ★★★★★</p>
+
+<p>Travel destinations worth exploring.</p>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+
 
 <footer>
+
 <p>© 2026 Mickey Blog</p>
+
 </footer>
 
 </body>
